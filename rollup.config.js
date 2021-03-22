@@ -31,7 +31,7 @@ export default {
 
     },
     exports: 'named', /** Disable warning for default imports */
-    // sourcemap: true,
+    sourcemap: true,
   },
   plugins: [
     babel({

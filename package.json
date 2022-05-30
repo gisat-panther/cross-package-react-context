@@ -33,6 +33,7 @@
     "@gisatcz/prettier-config": "^0.0.3",
     "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "^22.0.0",
+    "auto": "^10.37.1",
     "babel-loader": "^8.2.2",
     "cross-env": "^7.0.3",
     "eslint": "^8.16.0",
@@ -58,6 +59,6 @@
     "build:lib:es": "npm-run-all build:babel:lib:es",
     "build:babel:lib:es": "cross-env BABEL_ENV=es babel src -d lib",
     "lint": "eslint .",
-		"lintFix": "eslint . --fix"
+    "lintFix": "eslint . --fix"
   }
 }

@@ -9,7 +9,7 @@
   "homepage": "https://github.com/gisat-panther/cross-package-react-context",
   "style": "dist/style.css",
   "main": "dist/index.js",
-  "module": "dist/index.es.js",
+  "module": "lib/index.js",
   "files": [
     "dist",
     "lib"
@@ -19,12 +19,14 @@
     "type": "git",
     "url": "https://github.com/gisat-panther/cross-package-react-context"
   },
+  "sideEffects": false,
   "peerDependencies": {
     "react": "^16.13.1 || ^17.0.2 || ^18.1.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-runtime": "^7.18.2",
     "@babel/preset-env": "^7.15.8",
     "@babel/preset-react": "^7.14.5",
     "@rollup/plugin-babel": "^5.3.0",

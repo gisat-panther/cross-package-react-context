@@ -1,6 +1,6 @@
 {
   "name": "@gisatcz/cross-package-react-context",
-  "version": "0.1.1-0",
+  "version": "0.1.2-0",
   "description": "Singleton React context manager for use across packages",
   "keywords": [
     "panther",
@@ -58,6 +58,6 @@
     "build:lib:es": "npm-run-all build:babel:lib:es",
     "build:babel:lib:es": "cross-env BABEL_ENV=es babel src -d lib",
     "lint": "eslint .",
-		"lintFix": "eslint . --fix"
+    "lintFix": "eslint . --fix"
   }
 }

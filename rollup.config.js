@@ -21,7 +21,7 @@ export default {
 	external: ['react'],
 	output: {
 		file: {
-			es: pkg.module,
+			es: 'dist/index.es.js',
 			cjs: pkg.main,
 		}[env],
 		format: env,
@@ -32,6 +32,7 @@ export default {
 	plugins: [
 		babel({
 			plugins: [],
+			babelHelpers: 'runtime',
 		}),
 		commonjs({
 			include: 'node_modules/**',

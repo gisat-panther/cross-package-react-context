@@ -1,6 +1,6 @@
 {
   "name": "@gisatcz/cross-package-react-context",
-  "version": "0.1.2-0",
+  "version": "0.1.2-1",
   "description": "Singleton React context manager for use across packages",
   "keywords": [
     "panther",

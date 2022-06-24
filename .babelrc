@@ -1,10 +1,26 @@
 {
-  "presets": [
-        ["@babel/preset-env", {
-            "modules": "auto"
-        }],
-        "@babel/preset-react"],
-  "plugins": [
-  
-  ]
+	"env": {
+		"production": {
+			"presets": [
+				[
+					"@babel/preset-env",
+					{
+						"modules": false
+					}
+				]
+			],
+			"plugins": [["@babel/plugin-transform-runtime"]]
+		},
+		"development": {
+			"presets": [
+				[
+					"@babel/preset-env",
+					{
+						"modules": false
+					}
+				]
+			],
+			"plugins": [["@babel/plugin-transform-runtime"]]
+		}
+	}
 }
